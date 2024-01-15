@@ -1,0 +1,10 @@
+function obrigatoriedadeAnexo() {
+    var contratoDeBaseNacional = $('inp:contratoDeBaseNacional').val()
+    if (contratoDeBaseNacional  == 'Não') {
+        $('inp:crnograma').removeAttr('required')
+    } else{
+        $('inp:crnograma').Attr('required')
+
+    }
+    
+}
